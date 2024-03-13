@@ -1,0 +1,50 @@
+*{
+  box-sizing:content-box;
+}
+html{
+  scroll-behavior:smooth;
+}
+body{
+margin:0px;
+background-color:rgb(254, 249, 240);
+}
+h1{
+  text-align:center;
+  font-size:50px;
+  text-shadow:1px 2px 1px;
+  color:rgb(226, 135, 211);
+  text-decoration:underline;
+}
+img{
+  display:flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+p{
+  font-size: 20px;
+  line-height: 20px;
+  word-spacing: 5px;
+}
+.image{
+  border-radius: 50%;
+  float:left;
+  margin:20px;
+}
+.john{
+  padding:70px;
+}
+footer{
+  background-color:rgb(169, 169, 169);
+  padding:15px;
+}
+a{
+  margin:20px;
+  float:left;
+  padding: 2px;
+}
+footer img{
+  clip-path: circle(50% at 50% 50%);
+}
+.foot{
+  text-align: center;
+}
